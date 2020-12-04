@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- 1 引入jquery -->
+	<script crossorigin="anonymous" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" src="https://lib.baomitu.com/jquery/3.5.1/jquery.min.js"></script>
+	<!-- 2 引入轮播图css文件 -->
+	<link rel="stylesheet" type="text/css" href="./css/shuff.css"/>
+	<title>test</title>
+</head>
+<body>
+	<!-- 3 定义一个id为shuffling的容器 -->
+	<div id="shuffling"></div>
+	
+	<!-- 4 引入轮播图js文件 -->
+	<script src="./js/shuff.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		// 5 使用
+		// 图片路径数组
+		let picsArr = ['./img/cat.png','./img/dla.jpg','./img/hei.jpg','./img/lvbo.png']
+		// shuff(图片路径数组，宽度，高度)
+		shuff(picsArr,400,200)
+	</script>
+</body>
+</html>
